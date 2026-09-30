@@ -7,6 +7,7 @@
 (function () {
   const RT = (window.RT = {});
   RT.VERSION = '-菘 v3.-';
+  RT.DEV = { name: '張家菘', email: 'js.chang0512@gmail.com' };
 
   /* ---------- i18n ---------- */
   RT.lang = (() => {
@@ -36,7 +37,8 @@
     if (!document.querySelector('.site-foot')) {
       const f = document.createElement('footer');
       f.className = 'site-foot';
-      f.textContent = RT.VERSION;
+      f.innerHTML = `<div>${RT.esc(RT.VERSION)}</div>` +
+        `<div class="dev-line">${RT.t('開發者', 'Developer')}：${RT.esc(RT.DEV.name)} · ${RT.t('問題與建議', 'Questions & feedback')}：<a href="mailto:${RT.DEV.email}">${RT.DEV.email}</a></div>`;
       document.body.appendChild(f);
     }
   };

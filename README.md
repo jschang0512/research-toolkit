@@ -21,4 +21,8 @@ Interface in Traditional Chinese and English. Figures export to PNG, TIFF, JPG, 
 - Example data are fictional.
 - Third-party libraries (loaded from CDNs): pdf.js, docx-preview (Apache-2.0); jsPDF, svg2pdf.js, html2canvas, UTIF.js (MIT); JSZip (MIT or GPL-3.0).
 
+## Developer
+
+張家菘 — questions, bug reports and suggestions: [js.chang0512@gmail.com](mailto:js.chang0512@gmail.com)
+
 Version: -菘 v3.-

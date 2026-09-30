@@ -180,3 +180,10 @@ input.auto::placeholder { color: var(--accent); opacity: 1; font-style: italic; 
 .refs ol { margin: 6px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 5px; }
 .site-foot { text-align: center; color: var(--muted); font-size: 12.5px; padding: 18px 16px 26px; letter-spacing: .04em; }
 .lang-toggle { margin-left: 4px; font-weight: 600; }
+.site-foot .dev-line { margin-top: 4px; letter-spacing: 0; }
+.site-foot a { color: var(--muted); }
+.site-foot a:hover { color: var(--accent); }
+.dev-card { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.dev-card .avatar { width: 44px; height: 44px; border-radius: 50%; background: var(--accent-weak); color: var(--accent); display: grid; place-items: center; font-weight: 700; font-size: 18px; flex: none; }
+.dev-card .who { font-weight: 650; font-size: 15px; }
+.dev-card .how { color: var(--muted); font-size: 13px; }
